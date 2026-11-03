@@ -19,3 +19,9 @@ Mobil ve masaüstü tarayıcılar için tek koridorlu, botlara karşı MOBA prot
 
 ## Doğrulama
 JavaScript sözdizimi ve simüle edilmiş DOM/canvas ortamında minyon dalgası, yetenek hasarı ve enerji tüketimi, bekleme süresi, güçlendirme, çekirdek kalkanı, zafer, yeniden başlatma ve 60 saniyelik simülasyon kontrol edildi. Gerçek tarayıcı ve fiziksel telefon testi henüz yapılmadı.
+
+## Hedef seçimi ve performans
+- Mobilde veya masaüstünde oyun alanındaki bir rakibe dokunarak/tıklayarak hedef kilitleyin. Seçilen hedef sarı halkayla gösterilir.
+- Masaüstünde `Tab` ile yakındaki hedefler arasında geçiş yapın, `Esc` ile kilidi kaldırın.
+- Kilitli hedef menzildeyse normal saldırı ve şimşek önce onu hedefler; menzil dışında otomatik en yakın uygun hedef seçilir.
+- Mobilde çizim çözünürlüğü sınırlandırılır ve ekran dışındaki birimler çizilmez.
