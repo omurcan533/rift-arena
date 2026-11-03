@@ -3,3 +3,5 @@
 html{touch-action:manipulation;overscroll-behavior:none;-webkit-text-size-adjust:100%}canvas,#joystick,#stick,#skills,#skills button,#attack{touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}button{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
 
 .xp i{background:#f2c76d;width:0%}
+
+#shopItems{display:flex;justify-content:center;gap:5px;margin-bottom:6px}#shopItems button{font-size:11px;padding:8px 10px;background:#12353adf;border-color:#6ca59a66}#shopItems button:disabled{cursor:default}@media(max-width:650px){#shopItems{gap:3px}#shopItems button{font-size:9px;padding:7px 5px}#shop{max-width:calc(100vw - 150px);white-space:normal}#shopItems{flex-wrap:wrap}}
